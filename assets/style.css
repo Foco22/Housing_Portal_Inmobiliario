@@ -1,0 +1,154 @@
+/* Custom App CSS Below --------------------------------- */
+/*Fonts ––––––––––––––––––––––––––––––––––––––––––––––––––*/
+/* Main Layout ––––––––––––––––––––––––––––––––––––––––––––––––––*/
+/* Main Layout ––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+
+
+/* For devices larger than 400px */
+@media (max-width: 600px) {
+  .mini_container {
+    width: 85%;
+    padding: 0; }
+  .side_bar_mobile {
+      width: 1%;
+      padding: 0; }
+  body {
+        zoom: 32%;
+
+      }
+  
+}
+
+
+
+
+ /*@media  (max-width:600px) {
+  body {
+    zoom: 30%; font-size: calc(1rem + 1.5vw) !important;
+    display: block;
+    margin: 0px;
+    overflow-y: scroll;
+
+  }
+ 
+}
+
+
+
+
+/*.title {
+  font-size: calc(1.525rem + 3.3vw);
+}
+.label {
+  font-size: calc(1.375rem + 1.5vw) !important;
+}
+.text {
+  font-size: calc(1.375rem + 1.5vw) !important;
+}
+    
+
+
+/* Graph Layout ––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+/* Graph Control Objects ––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+.Select-control, .Select-menu-outer, .Select-multi-value-wrapper, .select-up, .is-open .Select-control {
+  background-color: '#f2f2f2';
+  color: 'black';
+  
+}
+
+.bare_container {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+
+
+.pretty_container {
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  margin: 15px;
+  padding: 15px;
+  box-shadow: 3px 3px 3px lightgrey;
+  font-family: 'sans-serif';
+
+}
+
+
+.mini_container {
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  margin: 22px;
+  padding: 15px;
+  text-align: center;
+  
+  bottom: 0;
+  box-shadow: 3px 3px 3px lightgrey;
+  display: 'inline-block';
+  font-family: 'sans-serif'
+}
+
+h2 {
+  font-size: 3.6rem;
+  line-height: 1.25;
+  letter-spacing: -0.1rem;
+  margin-bottom: 1.8rem;
+  margin-top: 1.8rem;
+}
+
+h3 {
+  font-size: 3rem;
+  line-height: 1.3;
+  letter-spacing: -0.1rem;
+  margin-bottom: 1.5rem;
+  margin-top: 3.5rem;
+  font-family: 'sans-serif';
+  width: '20px'
+
+}
+
+
+h6 {
+  font-size: 3rem;
+  line-height: 1.3;
+  letter-spacing: -0.1rem;
+  margin-bottom: 1.5rem;
+  margin-top: 3.5rem;
+  font-family: 'sans-serif';
+  width: '20px'
+
+}
+
+
+P {
+  margin-top: 0;
+  font-size: '15px';
+  font-family: 'TITILLIUM SANS'
+}
+
+label {
+  margin-top: 0;
+  font-size: '15px';
+  font-family: 'sans-serif'
+}
+
+img {
+  width: '1vh';
+  height: '1vh'
+}
+
+.table-container {
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  margin: 22px;
+  padding: 15px;
+  text-align: center;
+  
+  bottom: 0;
+  box-shadow: 3px 3px 3px lightgrey;
+  display: 'inline-block';
+  font-family: 'sans-serif'
+}
+
